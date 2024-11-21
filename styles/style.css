@@ -16,7 +16,9 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-p: white;
+	--color-background: rgba(25, 29, 32, 1);
+	--paragraaf-background:rgba(59, 64, 68, 1);
 }
 
 
@@ -26,6 +28,37 @@
 /****************/
 /* JOUW STYLING */
 /****************/
+body{
+	background-color: var(--color-background) ;
+	font-family: sans-serif;
+}
+header{
+	background-color:var(--color-background) ;
+	display: flex;
+	justify-content: center;
+	
+}
 
-/* jouw code */
+header img {
+	max-width: 100%;
+	height: auto;
+}
 
+main{
+	background-color:var(--paragraaf-background);
+}
+
+footer{
+	background-color:var(--color-background) ;
+}
+
+p {
+	color:var(--color-p);
+}
+
+.dp{
+	background-color: orange;
+	color:var(--color-p) ;
+	font-size: large;
+	justify-items: center;
+}

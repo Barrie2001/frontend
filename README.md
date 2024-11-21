@@ -93,7 +93,9 @@ https://werkenbijdefensie.nl/
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat er deze week voornamelijk goed ging is dat ik langzaam maar wel de stof tot mij door krijg.
+  De opdrachten helpen me om verder te komen sommige dingen komen mij nog bekend voor van het eerste jaar zoals flexbox.
+  Wat ik op dit moment soms nog ingewikkeld vind is de werking van de grid 
 
 
   ### Agenda voor meeting
