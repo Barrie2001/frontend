@@ -19,6 +19,7 @@
 	--color-p: white;
 	--color-background: rgba(25, 29, 32, 1);
 	--paragraaf-background:rgba(59, 64, 68, 1);
+	--paragraag-margin: 1em;
 }
 
 
@@ -28,32 +29,71 @@
 /****************/
 /* JOUW STYLING */
 /****************/
-body{
+/* image instellingen */
+img{
+	max-width: 100%;
+
+/* instellingen body */
+}body{
 	background-color: var(--color-background) ;
 	font-family: sans-serif;
 }
-header{
-	background-color:var(--color-background) ;
+
+/* opmaak header */
+header {
 	display: flex;
 	justify-content: center;
-	
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	background-color: #111;
 }
 
-header img {
-	max-width: 100%;
-	height: auto;
+h1, h2 {
+	margin: 0;
 }
 
+.cls-1 {
+	fill: white;
+  }
+
+  .cls-2 {
+	fill: #fff;
+  }
+
+  .cls-3 {
+	fill: #154273;
+  }
+header img{
+	object-fit: cover;
+	object-position: 75% center;
+}
+
+
+header svg {
+	width: 20%;
+}
+
+/* opmaak van de main */
 main{
 	background-color:var(--paragraaf-background);
+	padding: 9rem 0 0 0;
 }
 
+
+/* opmaak footer */
 footer{
 	background-color:var(--color-background) ;
 }
 
+/* opmaak p */
 p {
 	color:var(--color-p);
+	margin: var(--paragraag-margin);
+	text-align:left;
+	padding: 1em;
+
 }
 
 .dp{

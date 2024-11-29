@@ -128,7 +128,7 @@ https://werkenbijdefensie.nl/
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat er goed ging is dat ik doormiddel van de lessen en het huiswerk stappen aan het maken ben doormiddel in mijn csss ik begin ook dingen te begrijpen en dat help bij als codeur oom verder te komen
 
 
   ### Agenda voor meeting
